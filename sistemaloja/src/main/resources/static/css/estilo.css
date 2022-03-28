@@ -1,0 +1,188 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-tabs .nav-link.active{
+    color: black;
+    transition: 0.3s;
+}
+
+.nav-tabs .nav-link.active::before{
+    content: "\e1b0";
+    font-family: "font awesome 5 free";
+    font-size: 25px;
+    font-weight: 800;
+    padding-right: 1rem;
+}
+
+.nav-tabs .nav-link.active:hover{
+    color: lightblue;
+}
+
+.nav-tabs .li-link{
+    border: none;
+}
+
+.nav-link{
+    color: black;   
+}
+
+.nav{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-outline-success{
+    border-color: white;
+    transition: 0.3s;
+}
+
+.btn-outline-success:hover{
+    border-color: lightblue;
+    background-color: lightblue;
+}
+
+.glass-icon{
+    font-family: "font awesome 5 free";
+    font-weight: 550;
+    font-size: 25px;
+    color: black;
+    transition: 0.2s;
+}
+
+.glass-icon:hover{
+    color: white;
+}
+
+.section-content{
+    max-width: 80%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.card-body{
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+    display: flex;
+    align-items: inherit;
+    flex-wrap: wrap;
+}
+
+.image{
+	width: 250px;
+    height: 160px;
+    margin: 5px 15px 5px 15px;
+}
+
+.card{
+    margin: 1rem;
+    align-items: center;
+}
+
+.btn-content{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.btn-content:last-child a{
+    width: 100%;
+    padding-right: 7px;
+    margin-left: 3px;
+}
+
+.card-title{
+    width: 100%;
+    text-align: center;
+}
+
+h5{
+    line-height: 2.2;
+}
+
+/*Estilo - Cadastro-loja*/
+#titulo{
+    width: 50%;
+    text-align: center;
+    padding: 5px 10px 5px 10px;
+    margin: 10px 5px 5px 5px;
+}
+
+.section-form{
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    padding: 10px 5px 5px 5px;
+}
+
+.form-singup{
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.mb-3{
+    max-width: 50%;
+}
+
+form div{
+    padding-top: 1rem;
+}
+
+.btn-singup{
+    width: 50%;
+}
+
+.fw-lighter{
+	margin-bottom: 0rem;
+	margin-top: 2px;
+	color: gray;
+	opacity: 25;
+		
+}
+
+.primary-div-form{
+	margin-top: 0px;
+}
+
+.alert{
+	text-align: center;
+}
+
+/*Estilo - Lista-lojas*/
+.container{
+    margin-top: 1rem;
+}
+
+.list-image{
+	width: 160px;
+    height: 90px;
+    margin: 5px 15px 5px 15px;
+	
+}
+
+/*Estilo - Edita-loja*/
+.form-group-3{
+    max-width: 49%;
+}
+
+.btn-form-group-3{
+    width: 49%;
+    margin-top: 1.2rem;
+}
